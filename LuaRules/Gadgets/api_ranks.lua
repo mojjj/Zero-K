@@ -8,7 +8,7 @@ function gadget:GetInfo() return {
 	enabled   = true,
 } end
 
-local XP_PER_RANK = 0.2 -- change to 0.1 once lasthit bonus gets removed
+local XP_PER_RANK = 0.1 -- 0.1 because lasthit bonus has been removed,
 
 local floor = math.floor
 
