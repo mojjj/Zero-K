@@ -126,9 +126,9 @@ function gadget:UnitDestroyed(unitID,unitDefID)
   end
 end
   
-function gadget:UnitCreated(unitID,unitDefID)
-  SpawnSmokeUnit(unitID, unitDefID)
-end
+--function gadget:UnitCreated(unitID,unitDefID)
+--  SpawnSmokeUnit(unitID, unitDefID)
+--end
 
 function gadget:Update()
   if (Spring.GetGameFrame()<1) then 
